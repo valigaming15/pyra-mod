@@ -1,0 +1,32 @@
+type: GenericCrafter
+
+health: 400
+size: 3
+
+hasItems: true
+hasPower: true
+itemCapacity: 30
+
+requirements: [
+  copper/200
+  graphite/100
+  titanium/200
+]
+
+consumes: {
+  power: 4.5
+  items: {
+    items: [
+    ]
+  }
+}
+outputItem: pyratite/1
+
+craftTime: 200.0
+craftEffect: melting
+
+category: crafting
+research: pyratite-mixer
+
+name: pyra miner
+description: uses power to mine deep bellow any land to find pyratite
