@@ -1,0 +1,24 @@
+
+{
+	"type": "battery",
+	"size": 1,
+	"absorbLasers": true,
+	"fullLightColor": "FF6600",
+	"emptyLightColor": "000000",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+	"canOverdrive": false,
+	"health": 200,
+	"consumes": {
+		"powerBuffered": 50000
+	},
+	"category": "power",
+	"research": "battery",
+	"requirements": [
+		{ "item": "titanium", "amount": 20 },
+		{ "item": "pyratite", "amount": 80 },
+		
+	]
+}
