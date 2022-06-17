@@ -1,8 +1,0 @@
-{
-	"name": "pyratite",
-	"displayName": "pyra mod",
-	"author": "[#ff00ff][LS][#0000ff]v[#ffff]a[#ff]li (pc)",
-	"description": "Adds pyratite theamed blocks",
-	"version": "1.0.1",
-	"minGameVersion": 126,
-}
