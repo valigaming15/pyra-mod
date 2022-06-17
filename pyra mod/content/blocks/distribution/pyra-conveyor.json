@@ -1,0 +1,36 @@
+{
+"type": "StackConveyor",
+"loadEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 25,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "FFFF00",
+"colorTo": "FF6600"
+},
+"unloadEffect": {
+"type": "ParticleEffect",
+"line": true,
+"particles": 7,
+"lifetime": 15,
+"length": 25,
+"cone": -360,
+"lenFrom": 5,
+"lenTo": 0,
+"colorFrom": "FFFF00",
+"colorTo": "FF6600"
+},
+"health": 100,
+"speed": 0.05,
+"itemCapacity": 50,
+    "requirements": [
+        "pyratite/2",
+    ],
+"research": "plastanium-conveyor",
+"category": "distribution"
+
+}
