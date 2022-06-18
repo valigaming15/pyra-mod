@@ -1,8 +1,8 @@
 {
 	"name": "pyratite",
 	"displayName": "pyra mod",
-	"author": "[purple][LS][blue]v[gold]a[red]li (pc)",
+	"author": "vali#5378",
 	"description": "Adds pyratite theamed blocks",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minGameVersion": 126,
 }
