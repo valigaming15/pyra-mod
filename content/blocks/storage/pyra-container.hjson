@@ -1,0 +1,14 @@
+type: StorageBlock
+name: "pyra container"
+
+size: 2
+health: 500
+itemCapacity: 1000
+
+requirements: [
+    pyratite/100
+]
+
+category: effect
+research: unloader
+group: transportation

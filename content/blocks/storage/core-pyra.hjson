@@ -1,0 +1,21 @@
+type: CoreBlock
+name: "Core: pyra"
+description: Core of the base. Incredibly well armored. Stores humongous amounts of resources.
+details: Prototype core sent to us, from unknown source.
+size: 6
+health: 10000
+itemCapacity: 20000
+
+requirements: [
+    copper/8000
+    lead/8000
+    titanium/5000
+    thorium/5000
+    silicon/5000
+    pyratite/8000
+]
+category: effect
+research: core-pyra
+
+unitType: mega
+unitCapModifier: 50
