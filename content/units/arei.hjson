@@ -1,0 +1,24 @@
+type: flying
+name: arei
+health: 500
+armor: 4.5
+hitSize: 16.05
+flying: true
+speed: 2.7
+accel: 0.06
+drag: 0.017
+lowAltitude: true
+mineTier: 6
+mineSpeed: 4
+engineOffset: 10.5
+engineSize: 3
+buildSpeed: 2
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 50
+    regen: 0.25
+    max: 250
+    cooldown: 450
+  }
+]
