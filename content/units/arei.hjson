@@ -1,0 +1,51 @@
+type: flying
+name: arei
+description: a mega-quasar hybrid core unit it has powerfull single laser
+health: 500
+armor: 4.5
+hitSize: 16.05
+flying: true
+speed: 2.7
+accel: 0.06
+drag: 0.017
+lowAltitude: true
+mineTier: 6
+mineSpeed: 4
+engineOffset: 10.5
+engineSize: 3
+buildSpeed: 2
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 35
+    regen: 0.25
+    max: 250
+    cooldown: 450
+  }
+]
+weapons: [
+    {
+        name: electric-laser
+        mirror: false
+        healPercent: 10
+        top: true
+        shake: 1
+        shootY: 0
+        x: 0
+        y: 0
+        reload: 120
+        recoil: 1
+        shootSound: laser
+        bullet: {
+            type: LaserBulletType
+            collidesTeam: true
+            healPercent: 10
+            damage: 100
+            recoil: 1
+            sideAngle: 0
+            sideWidth: 1
+            sideLength: 100
+            colors: [ff6600,ff6600,ffffff]
+        }
+    }
+]
